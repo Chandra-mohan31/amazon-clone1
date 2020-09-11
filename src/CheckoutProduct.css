@@ -23,6 +23,7 @@
     margin-top: 10px;
     border-color: orangered black blue;
     color:#111;
+    cursor: pointer;
 }
 .checkoutProduct__title{
     font-size: 17px;

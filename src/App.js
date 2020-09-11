@@ -55,12 +55,7 @@ function App() {
          <Route path= "/">
            <Header/>
            <Home/>
-           
-
-           
-             
-           
-         </Route>
+           </Route>
        </Switch>
        </div>
     </Router>

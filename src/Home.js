@@ -18,7 +18,7 @@ function Home() {
         image="./product.jpeg"
         />
           <Product 
-        id={123}
+        id={1234}
         title="MOBILE"
         price={120}
         rating={5}
@@ -27,21 +27,21 @@ function Home() {
         </div>
         <div className="home__row">
         <Product 
-        id={123}
+        id={12345}
         title="IRON BOX"
         price={20}
         rating={5}
         image="./ironbox.jpeg"
         />
           <Product 
-        id={123}
+        id={123456}
         title="HAIR DRYER"
         price={20}
         rating={5}
         image="./hairdryer.jpeg"
         />
           <Product 
-        id={123}
+        id={1234567}
         title="TABLE"
         price={80}
         rating={5}
@@ -50,7 +50,7 @@ function Home() {
         </div>
         <div className="home__row">
         <Product 
-        id={123}
+        id={12345678}
         title="REFRIGERATOR"
         price={300}
         rating={5}
