@@ -6,7 +6,9 @@ import Checkout from "./Checkout";
 import Login from "./Login";
 import {useStateValue} from "./StateProvider";
 import {auth} from "./Firebase";
-
+import Payment from "./Payment";
+//import {loadStripe} from "@stripe/stripe-js";
+//import {Elements} from "@stripe/react-stripe-js";
 import {
   BrowserRouter as Router,
   Switch,
@@ -50,8 +52,14 @@ function App() {
          <Route path= "/login">
           <Header/>
            <Login />
+          </Route>
+            <Route path= "/payment">
+           <Header/>
            
-         </Route>
+            <Payment />
+           
+         
+           </Route>
          <Route path= "/">
            <Header/>
            <Home/>
